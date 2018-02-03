@@ -16,16 +16,8 @@ A game console was designed to play tetris as a 4-player game on a small device.
 #### Program Files: ####
 
 Main.c
-
-###### meta game e.g. for difficulty and speed settings
-metagame.h
-
-###### game menu navigation
-menu.h
-
-###### accessing the GLCD routines for KS0108 
-icd.h
-
-###### game mechanics: this is my TETRIS implementation
-game_mechanics.h
+- metagame.h ###### meta game e.g. for difficulty and speed settings
+- menu.h ###### game menu navigation
+- icd.h ###### accessing the GLCD routines for KS0108 
+- game_mechanics.h ###### game mechanics: this is my TETRIS implementation
 
