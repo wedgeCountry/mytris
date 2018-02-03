@@ -1,22 +1,19 @@
-
+mytris
+------
 
 This game console was designed to play tetris as a 4-player game on a small device.
 
-Installation: type ./amake
+### Installation: ###
+./amake
 
-########################################################
-
-TODO: 
-
+### TODO: ###
 - Hardware-specs
 - bug-fix game_mechanics.c
 - clean up menu.h
 - implement highscore using EEPROM
 
-#######################################################
 
-
-Files and dependencies:
+### Files and dependencies: ###
 
 Main.c
 |definitions.h
