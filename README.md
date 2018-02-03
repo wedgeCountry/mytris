@@ -1,19 +1,19 @@
 mytris
 ------
 
-This game console was designed to play tetris as a 4-player game on a small device.
+A game console was designed to play tetris as a 4-player game on a small device.
 
-### Installation: ###
+#### Installation: ####
 ./amake
 
-### TODO: ###
+#### TODO: ####
 - Hardware-specs
 - bug-fix game_mechanics.c
 - clean up menu.h
 - implement highscore using EEPROM
 
 
-### Files and dependencies: ###
+#### Files and dependencies: ####
 
 Main.c
 |definitions.h
@@ -22,27 +22,27 @@ Main.c
 |modules.h
 |lcd.h
 
-## meta game e.g. for difficulty and speed settings
+###### meta game e.g. for difficulty and speed settings
 metagame.h
 |definitions.h
 |ctrl.h
 |interface.h
 |game_mechanics.h
 
-## game menu navigation
+###### game menu navigation
 menu.h
 |definitions.h
 |ctrl.h
 |game.h
 
-## accessing the GLCD routines for KS0108 
+###### accessing the GLCD routines for KS0108 
 lcd.h
 |definitions.h
 interface.h
 |definitions.h
 |lcd.h
 
-## game mechanics: this is my TETRIS implementation
+###### game mechanics: this is my TETRIS implementation
 game_mechanics.h
 |definitions.h
 |interface.h
